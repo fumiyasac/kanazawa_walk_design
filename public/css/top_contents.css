@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+    top_contents.css
+	
+	Fumiya Sakai(Just One Factory). 
+
+	00: custom
+	01: index
+
+*/
+
+/* ============================================================
+00: custom
+============================================================ */
+/* yuiで邪魔なCSSを打ち消す */
+h1,h2,h3{
+margin: 0;
+}
+
+ul,ol,dl,blockquote{
+margin: 0;
+}
+
+p{
+margin-bottom: 0;
+font-size: 100%;
+}
+
+input[type="text"],input[type="password"],textarea{
+width: auto;
+}
+
+/* html5を大丈夫にする */
+article,aside,dialog,figure,footer,header,hgroup,nav,section,figcaption {
+display: block;
+}
+
+/* ============================================================
+01: index
+============================================================ */
+html{
+height:100%;
+}
+
+body{
+font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+height:100%;
+font-size: 13px;
+*font-size: small;
+*font: x-small;
+line-height: 1.6;
+}
+
+/* for IE8 (default:16px) */
+html>/**/body {
+font-size /*\**/: 82%\9;
+}
+
+/* Now Loading用 */
+#nowLoading{
+width: 24px;
+height: 24px;
+position: absolute;
+top: 50%;
+left: 50%;
+overflow: hidden;
+padding-top: -12px;
+padding-left: -12px;
+}
+
+#nowLoading p{
+text-align: center;
+}
+
+#nowLoading p img{
+}
+
+/* メインコンテンツ用 */
+#wrapper{
+width: 100%;
+position: relative;
+height: auto!important; /*IE6対策*/
+height: 100%; /*IE*/
+min-height: 100%;
+}
+
+#container{
+width: 100%;
+min-width: 1000px;
+height: 100%;
+min-height: 560px;
+padding-bottom: 60px;
+}
+
+/* header */
+#header{
+float: left;
+padding: 30px 30px 0;
+width: 300px;
+height: auto;
+}
+
+#header div{
+padding: 10px;
+width: 280px;
+height: auto;
+background: #ffffff;
+}
+
+#header div h1{
+display: block;
+width: 280px;
+height: 100px;
+background:url(../images/top/common/logo.gif) top left no-repeat;
+text-indent: -9999px;
+}
+
+/* header -> nav */
+#header div nav{
+width: 280px;
+height: 250px;
+margin-top: 10px;
+border-bottom: solid 1px #f2f2f2;
+}
+
+#header div nav ul{
+width: 280px;
+height: 250px;
+}
+
+#header div nav ul li{
+width: 280px;
+height: 49px;
+list-style-type: none;
+border-top: solid 1px #f2f2f2;
+}
+
+#header div nav ul li a{
+width: 280px;
+height: 49px;
+display: block;
+text-indent: -9999px;
+}
+
+#header div nav ul li.topNav01 a{
+background:url(../images/top/common/nav01.gif) bottom left no-repeat;
+}
+
+#header div nav ul li.topNav02 a{
+background:url(../images/top/common/nav02.gif) bottom left no-repeat;
+}
+
+#header div nav ul li.topNav03 a{
+background:url(../images/top/common/nav03.gif) bottom left no-repeat;
+}
+
+#header div nav ul li.topNav04 a{
+background:url(../images/top/common/nav04.gif) bottom left no-repeat;
+}
+
+#header div nav ul li.topNav05 a{
+background:url(../images/top/common/nav05.gif) bottom left no-repeat;
+}
+
+#header div aside.reports{
+margin-top: 20px;
+width: 280px;
+height: 90px;
+}
+
+/* subContents */
+#subContents{
+float: right;
+padding: 30px 30px 0;
+width: 300px;
+height: auto;
+}
+
+/* subContents -> campaignBnr */
+#subContents .campaignBnr{
+width: 300px;
+height: 80px;
+padding-top: 150px;
+}
+
+#subContents .campaignBnr a{
+width: 300px;
+height: 80px;
+display: block;
+}
+
+/* subContents -> searchArea */
+#subContents .searchArea{
+margin-top: 10px;
+width: 300px;
+height: 120px;
+background: #ffffff;
+}
+
+#subContents .searchArea header{
+padding: 10px 10px 5px;
+width: 280px;
+height: 20px;
+}
+
+#subContents .searchArea header h3{
+width: 280px;
+height: 20px;
+background:url(../images/top/common/top_search_header.gif) top left no-repeat;
+display: block;
+text-indent: -9999px;
+}
+
+#subContents .searchArea section{
+padding: 0 10px 0;
+width: 280px;
+}
+
+#subContents .searchArea section p{
+font-size: 85%;
+line-height: 1.7;
+}
+
+#subContents .searchArea div{
+margin-top: 8px;
+}
+
+#subContents .searchArea div form#searchForm{
+position: relative;
+border: 1px solid #E2E2E2;
+display: block;
+width: 278px;
+height: 26px;
+}
+
+#subContents .searchArea div form#searchForm #keywordsArea{
+border: medium none;
+font-size: 100%;
+height: 22px;
+left: 2px;
+position: absolute;
+top: 2px;
+width: 211px;
+}
+
+#subContents .searchArea div form#searchForm #searchButton{
+background: url(../images/top/common/btn_search.gif) no-repeat scroll left top transparent;
+border: 0 solid;
+height: 22px;
+left: 215px;
+position: absolute;
+top: 2px;
+width: 61px;
+}
+
+/* subContents -> topicsArea */
+#subContents .topicsArea{
+margin-top: 10px;
+width: 300px;
+height: 120px;
+background: url(../images/top/common/bg_topics.gif) top left no-repeat;
+}
+
+#subContents .topicsArea header{
+padding: 10px 10px 5px;
+width: 280px;
+height: 20px;
+}
+
+#subContents .topicsArea header h3{
+width: 280px;
+height: 20px;
+font-size: 100%;
+color: #a66e02;
+}
+
+#subContents .topicsArea section{
+padding: 0 10px 0;
+width: 280px;
+overflow: hidden;
+}
+
+#subContents .topicsArea section p.topicImg{
+float: left;
+padding-right: 10px;
+}
+
+#subContents .topicsArea section p.topicText{
+font-size: 85%;
+line-height: 1.7;
+}
+
+#subContents .topicsArea section p.topicText strong{
+color: #ffae00;
+}
+
+#subContents .topicsArea section p.topicText a{
+color: #333333;
+}
+
+
+/* footer */
+#footer{
+clear: both;
+position: absolute;
+bottom: 0;
+height: 60px;
+width: 100%;
+z-index: 5;
+}
+
+/* footer -> topNews */
+#topNews{
+background-image: url(../images/top/common/bg_opacity_h30.png);
+background-repeat: repeat;
+height: 30px;
+width: 100%;
+}
+
+#topNews p{
+font-size: 85%;
+height: 30px;
+line-height: 32px;
+color: #ffffff;
+padding-left: 32px;
+}
+
+#topNews p a{
+color: #ffffff;
+text-decoration: none;
+}
+
+/* footer -> copyright */
+#copyright{
+background: #000000;
+height: 30px;
+overflow: hidden;
+}
+
+/* footer -> copyright -> subNav */
+#copyright .subNav{
+float: left;
+height: 30px;
+}
+
+#copyright .subNav nav{
+height: 30px;
+line-height: 30px;
+*margin-left: 30px;
+margin-left: 32px;
+}
+
+#copyright .subNav nav ul li{
+padding-right: 20px;
+list-style-type: none;
+display: inline-block;
+}
+
+#copyright .subNav nav ul li a{
+padding-left: 10px;
+background: url(../images/top/common/arrow_footer_top.gif) no-repeat scroll left 3px transparent;
+font-size: 85%;
+color: #ffffff;
+text-decoration: none;
+}
+
+/* footer -> copyright -> j1factory */
+#copyright .j1factory{
+float: right;
+width: 350px;
+height: 30px;
+}
+
+#copyright .j1factory p{
+text-align: right;
+font-size: 85%;
+height: 30px;
+line-height: 30px;
+color: #ffffff;
+padding-right: 32px;
+}
