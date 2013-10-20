@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+    category_contents.css
+	
+	Fumiya Sakai(just1factory)
+	
+	01: sliderContents
+	02: recentContents
+	03: searchContents
+	04: newinfoContents
+*/
+
+/* ============================================================
+01: sliderContents
+============================================================ */
+/* slider */
+.sliderContents{
+width:660px;
+height:360px;
+}
+
+#slider{
+width:660px;
+height:360px;
+}
+
+#slider .sliderPics{
+width:660px;
+height:360px;
+position:relative;
+}
+
+#slider .sliderPics a{
+width:660px;
+height:360px;
+position:absolute;
+left:0;
+top:0;
+display:block;
+}
+
+#slider .sliderPics .caption{
+position:absolute;
+bottom:0;
+width:660px;
+background-image:url(../images/contents/common/bg_png.png);
+background-repeat:repeat;
+/* opacity settings */
+/*
+background:#333333;
+filter:alpha(opacity=50);
+-moz-opacity:0.5;
+opacity:0.5;
+*/
+}
+
+#slider .sliderPics .caption h3{
+margin-top:5px;
+margin-left:8px;
+margin-right:8px;
+color:#FFFFFF;
+font-size:93%;
+}
+
+#slider .sliderPics .caption p{
+margin-bottom:5px;
+margin-left:8px;
+margin-right:8px;
+color:#FFFFFF;
+font-size:93%;
+}
+
+/* ============================================================
+02: recentContents
+============================================================ */
+.recentContents{
+margin-top: 20px;
+width: 660px;
+height: auto;
+overflow: hidden;
+}
+
+.recentContents .newEntryBox{
+float: left;
+width: 318px;
+height: auto;
+border: solid 1px #f7f7f7;
+}
+
+.recentContents .newEntryBox .imgBox{
+width: 318px;
+height: 219px;
+position: relative;
+}
+
+.recentContents .newEntryBox img.newThumb{
+position: absolute;
+left: 9px;
+top: 9px;
+}
+
+.recentContents .newEntryBox .newIcon img{
+position: absolute;
+right: 1px;
+top: 1px;
+z-index: 5;
+}
+
+.newEntryBox section header{
+border-bottom: dotted 1px #f2f2f2;
+margin: 0 9px;
+padding-bottom: 5px;
+}
+
+.newEntryBox section header h3{
+height: auto;
+}
+
+.newEntryBox section header h3.Gourmet{
+color: #ffae00;
+}
+
+.newEntryBox section .genreInfoLine{
+font-size: 93%;
+}
+
+.newEntryBox section .genreInfoLine dl{
+margin: 0 9px;
+}
+
+.newEntryBox section .genreInfoLine dl dt{
+border-bottom: dotted 1px #f2f2f2;
+width: 300px;
+height: 34px;
+line-height: 34px;
+position: relative;
+}
+
+.newEntryBox section .genreInfoLine dl dt .dateLine{
+position: absolute;
+left: 2px;
+}
+
+.newEntryBox section .genreInfoLine dl dt .genreLine{
+position: absolute;
+right: 2px;
+}
+
+.newEntryBox section .genreInfoLine dl dd{
+width: 300px;
+line-height: 1.8;
+margin: 0 2px;
+padding: 7px 0;
+border-bottom: dotted 1px #f2f2f2;
+}
+
+.linkArrowDetail{ /* 共通使用 */ 
+font-size: 85%;
+text-align: right;
+padding: 8px 0;
+}
+
+.linkArrowDetail a{ /* 共通使用 */ 
+padding-left: 10px;
+background: url(../images/contents/common/arrow_link.gif) no-repeat scroll left 3px transparent;
+color: #000000;
+text-decoration: none;
+}
+
+.linkArrowDetail a:hover{ /* 共通使用 */ 
+text-decoration: underline;
+}
+
+/* ============================================================
+03: searchContents
+============================================================ */
+.searchContents{
+margin-top: 20px;
+width: 660px;
+height: auto;
+overflow: hidden;
+}
+
+.searchContents .genreBox,
+.searchContents .commentBox{
+float: left;
+width: 318px;
+height: auto;
+border: solid 1px #f7f7f7;
+border-top: none;
+}
+
+.searchContents .genreBox header,
+.searchContents .commentBox header{
+width: 320px;
+height: 28px;
+border-top: solid 1px #ffc580;
+border-bottom: solid 1px #ffc580;
+background: #febd7a;
+}
+
+.searchContents .genreBox header h3,
+.searchContents .commentBox header h3{
+height: 28px;
+line-height: 28px;
+font-size: 93%;
+margin-left: 6px;
+}
+
+.searchContents .genreBox div{
+height: 50px;
+width: 320px;
+}
+
+.searchContents .genreBox div dl{
+height: 30px;
+width: 300px;
+margin: 0 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: dotted 1px #f2f2f2;
+}
+
+.searchContents .genreBox div dl dt{
+height: 18px;
+line-height: 18px;
+background: url(../images/contents/common/icon_genre.gif) no-repeat scroll left 4px;
+font-size: 93%;
+padding-left: 12px;
+}
+
+.searchContents .genreBox div dl dt a{
+color: #ffae00;
+text-decoration: none;
+}
+
+.searchContents .genreBox div dl dd{
+height: 12px;
+line-height: 12px;
+font-size: 85%;
+}
+
+.searchContents .commentBox div{
+height: 100px;
+width: 320px;
+}
+
+.searchContents .commentBox div dl{
+height: 80px;
+width: 300px;
+margin: 0 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: dotted 1px #f2f2f2;
+}
+
+.searchContents .commentBox div dl dt{
+height: 18px;
+line-height: 18px;
+font-size: 85%;
+}
+
+.searchContents .commentBox div dl dt a{
+color: #ffae00;
+text-decoration: none;
+}
+
+.searchContents .commentBox div dl dd{
+height: 62px;
+}
+
+.searchContents .commentBox div dl dd .avaterBox{
+height: 40px;
+overflow: hidden;
+}
+
+.searchContents .commentBox div dl dd .avaterBox ul{
+padding-left: 50px;
+}
+
+.searchContents .commentBox div dl dd .avaterBox ul li{
+font-size: 85%;
+line-height: 1.8;
+list-style-type: none;
+}
+
+.searchContents .commentBox div dl dd p{
+font-size: 85%;
+line-height: 2.0;
+}
+
+/* リンク用ボックス */
+.searchContents .commentBox div.commentSearchLink{
+height: 50px;
+width: 320px;
+}
+
+.searchContents .commentBox div.commentSearchLink dl.commentSearchLinkBox{
+height: 30px;
+width: 300px;
+margin: 0 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.searchContents .commentBox div.commentSearchLink dl.commentSearchLinkBox dd{
+font-size: 93%;
+height: 30px;
+}
+
+.linkArrowComment{ /* 共通使用 */ 
+font-size: 85%;
+text-align: right;
+height: 15px;
+line-height: 15px;
+display: block;
+}
+
+.linkArrowComment a{ /* 共通使用 */ 
+padding-left: 10px;
+background: url(../images/contents/common/arrow_link.gif) no-repeat scroll left 3px transparent;
+color: #000000;
+text-decoration: none;
+}
+
+.linkArrowComment a:hover{ /* 共通使用 */ 
+text-decoration: underline;
+}
+
+.searchContents .genreBox div dl.noBorder,
+.searchContents .commentBox div dl.noBorder{
+border-bottom: none;
+}
+
+/* ============================================================
+04: newinfoContents
+============================================================ */
+.newinfoContents{
+margin-top: 20px;
+width: 660px;
+height: auto;
+}
+
+.newinfoContents header{
+width: 660px;
+height: 28px;
+border-top: solid 1px #ffc580;
+border-bottom: solid 1px #ffc580;
+background: #febd7a;
+}
+
+.newinfoContents header h3{
+height: 28px;
+line-height: 28px;
+font-size: 93%;
+margin-left: 6px;
+}
+
+.newinfoContents div{
+border: solid 1px #f7f7f7;
+border-top: none;
+}
+
+.newinfoContents div .newinfoBox{
+height: 50px;
+width: 660px;
+}
+
+.newinfoContents div .newinfoBox dl{
+height: 34px;
+width: 640px;
+margin: 0 10px;
+padding-top: 8px;
+padding-bottom: 8px;
+border-bottom: dotted 1px #f2f2f2;
+}
+
+.newinfoContents div .newinfoBox dl dt{
+height: 20px;
+line-height: 20px;
+background: url(../images/contents/common/arrow_link.gif) no-repeat scroll left 4px;
+font-size: 85%;
+padding-left: 12px;
+}
+
+.newinfoContents div .newinfoBox dl dd{
+height: 14px;
+line-height: 14px;
+font-size: 85%;
+}
+
+.newinfoContents div .newinfoBox dl dd a{
+color: #000000;
+text-decoration: none;
+}
+
+.newinfoContents div .newinfoBox dl dd a:hover{
+text-decoration: underline;
+}
+
+.newinfoContents div .newInfoLinkBox{
+height: 30px;
+width: 660px;
+}

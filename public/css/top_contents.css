@@ -45,7 +45,7 @@ height:100%;
 }
 
 body{
-font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+font-family: 'メイリオ', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 height:100%;
 font-size: 13px;
 *font-size: small;
@@ -360,7 +360,7 @@ display: inline-block;
 
 #copyright .subNav nav ul li a{
 padding-left: 10px;
-background: url(../images/top/common/arrow_footer_top.gif) no-repeat scroll left 3px transparent;
+background: url(../images/top/common/arrow_footer_top.gif) no-repeat scroll left 4px transparent;
 font-size: 85%;
 color: #ffffff;
 text-decoration: none;
