@@ -164,7 +164,7 @@ padding: 8px 0;
 
 .linkArrowDetail a{ /* 共通使用 */ 
 padding-left: 10px;
-background: url(../images/contents/common/arrow_link.gif) no-repeat scroll left 3px transparent;
+background: url(../images/contents/common/arrow_link.gif) no-repeat scroll left 2px transparent;
 color: #000000;
 text-decoration: none;
 }
@@ -320,7 +320,7 @@ display: block;
 
 .linkArrowComment a{ /* 共通使用 */ 
 padding-left: 10px;
-background: url(../images/contents/common/arrow_link.gif) no-repeat scroll left 3px transparent;
+background: url(../images/contents/common/arrow_link.gif) no-repeat scroll left 2px transparent;
 color: #000000;
 text-decoration: none;
 }

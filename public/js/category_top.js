@@ -7,7 +7,7 @@
 
 $(document).ready(function(){
 
-    var MAIN_NAV = "nav ul li a";
+    var MAIN_NAV = "#leftContents nav ul li a";
     var BANNERS = ".reports a";
 		
 	//Rollover Action.
