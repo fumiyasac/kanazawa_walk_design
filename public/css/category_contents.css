@@ -6,11 +6,64 @@
 	
 	Fumiya Sakai(just1factory)
 	
+	00: common
 	01: sliderContents
 	02: recentContents
 	03: searchContents
 	04: newinfoContents
 */
+
+/* ============================================================
+00: common
+============================================================ */
+/* カテゴリー別配色 */
+.categoryGourmentBg{
+background-color: #ff803a;	
+}
+
+.categoryShoppingBg{
+background-color: #52cb52;
+}
+
+.categoryTourismBg{
+background-color: #3fc5e2;
+}
+
+.categoryHotelBg{
+background-color: #feca2c;
+}
+
+.categoryEventBg{
+background-color: #ff6c6c;
+}
+
+.siteSymBg{
+background-color: #ffae00;
+}
+
+.categoryGourmentTxt{
+color: #ff803a;	
+}
+
+.categoryShoppingTxt{
+color: #52cb52;
+}
+
+.categoryTourismTxt{
+color: #3fc5e2;
+}
+
+.categoryHotelTxt{
+color: #feca2c;
+}
+
+.categoryEventTxt{
+color: #ff6c6c;
+}
+
+.siteSymTxt{
+color: #ffae00;
+}
 
 /* ============================================================
 01: sliderContents
@@ -72,6 +125,14 @@ color:#FFFFFF;
 font-size:93%;
 }
 
+.vTitle{
+color: #683800;
+}
+
+.vTitle span{
+color: #ffa200;
+}
+
 /* ============================================================
 02: recentContents
 ============================================================ */
@@ -108,6 +169,26 @@ top: 1px;
 z-index: 5;
 }
 
+.recentContents .newEntryBox .categoryIcon{
+position: absolute;
+left: 19px;
+top: 19px;
+z-index: 10;
+width: 46px;
+height: 46px;
+/* 正円形を描く */
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+}
+
+.recentContents .newEntryBox .categoryIcon img{
+position: absolute;
+left: 9px;
+top: 9px;
+z-index: 10;
+}
+
 .newEntryBox section header{
 border-bottom: dotted 1px #f2f2f2;
 margin: 0 9px;
@@ -118,7 +199,7 @@ padding-bottom: 5px;
 height: auto;
 }
 
-.newEntryBox section header h3.Gourmet{
+.newEntryBox section header h3.articleHeadLine{
 color: #ffae00;
 }
 

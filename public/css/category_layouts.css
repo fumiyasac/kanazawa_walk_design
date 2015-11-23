@@ -145,7 +145,7 @@ text-indent: -9999px;
 #globalHeader .category{
 position: absolute;
 top: 20px;
-left: 300px;	
+left: 300px;
 width: 360px;
 }
 
@@ -189,7 +189,7 @@ text-decoration: none;
 text-decoration: underline;
 }
 
-#globalHeader .category .Gourmet{
+#globalHeader .category .Global{
 background-color: #ffae00;
 }
 
@@ -652,9 +652,17 @@ background: url(../images/contents/common/arrow_black.gif) no-repeat scroll 12px
 color: #ff0000 !important;
 }
 
+.white{
+color: white !important;
+}
+
 /* weight set */
 .bold{
 font-weight: bold !important;
+}
+
+.normal{
+font-weight: normal !important;
 }
 
 /* margin set */
