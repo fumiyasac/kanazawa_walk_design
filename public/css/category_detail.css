@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+  category_detail.css
+	
+	Fumiya Sakai(just1factory)
+	
+	01: CategoryDetailContents
+	02: DetailEyeCatchSlider
+	03: Paginator
+	04: ErrorCommon
+	
+*/
+
+/* ============================================================
+01: CategoryDetailContents
+============================================================ */
+/* Article Contents */
+.mainImageContents{
+width:660px;
+height:auto;
+}
+
+#mainArticles .entryBody{
+width:660px;
+height:auto;
+}
+
+/* Article Contents（breadcrumb） */
+#mainArticles .entryBody aside.breadCrumb{
+width: 660px;
+height: 40px;
+line-height: 40px;
+border-top: 1px solid #F1F1F1;
+border-bottom: 1px solid #F1F1F1;
+margin-bottom: 20px;
+}
+
+#mainArticles .entryBody aside.breadCrumb ul li{
+list-style-type: none;
+display: inline;
+font-size: 85%;
+color: #333;
+background: #FFF url("../images/contents/common/icon_bg_comment.gif") no-repeat scroll right 3px/*center*/;
+padding-right: 16px;
+margin-right: 7px;
+}
+
+#mainArticles .entryBody aside.breadCrumb ul li a{
+color: #333;
+text-decoration: none;
+}
+
+#mainArticles .entryBody aside.breadCrumb ul li a:hover{
+text-decoration: underline;
+}
+
+#mainArticles .entryBody aside.breadCrumb ul li.last{
+padding-right: 0px;
+margin-right: 0px;
+background: #FFF none repeat scroll 0% 0%;
+}
+
+/* Article Contents（titleBlocks） */
+#mainArticles .entryBody .titleBlocks h2{
+font-size: 16px;
+}
+
+#mainArticles .entryBody .titleBlocks div{
+margin-top: 20px;
+width: 660px;
+border-top: solid 1px #F1F1F1;
+border-bottom: solid 1px #F1F1F1;
+position: relative;
+}
+
+#mainArticles .entryBody .titleBlocks div p.articleGenreImage{
+position: absolute;
+right: 0px;
+top: 12px;
+z-index: 10;
+width: 46px;
+height: 46px;
+/* 正円形を描く */
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+}
+
+#mainArticles .entryBody .titleBlocks div p.articleGenreImage .categoryIcon img{
+top: 10px;
+right: 11px;
+position: absolute;
+}
+
+#mainArticles .entryBody .titleBlocks div dl{
+}
+
+#mainArticles .entryBody .titleBlocks div dl dt{
+font-size: 93%;
+padding: 0 0 3px;
+}
+
+#mainArticles .entryBody .titleBlocks div dl dt.articleGenreImageText{
+margin-top: 10px;
+}
+
+#mainArticles .entryBody .titleBlocks div dl dd{
+font-size: 93%;
+padding: 0 0 3px;
+}
+
+#mainArticles .entryBody .titleBlocks div dl dd.articleKcpy{
+margin-top: 5px;
+}
+
+#mainArticles .entryBody .titleBlocks div dl dd.articleDesc{
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+/* Article Contents（tagCloudBlocks） */
+#mainArticles .entryBody .tagCloudBlocks{
+margin-top: 20px;
+width: 660px;
+background: #F9F9F9;
+}
+
+#mainArticles .entryBody .tagCloudBlocks div.categoryInfoBox{
+width: 640px;
+padding: 10px;
+background: transparent url("../images/contents/common/icon_tag.png") no-repeat scroll 10px center;
+}
+
+#mainArticles .entryBody .tagCloudBlocks div.categoryInfoBox ul{
+margin-left: 20px;
+background: #F9F9F9 none repeat scroll 0% 0%;
+}
+
+#mainArticles .entryBody .tagCloudBlocks div.categoryInfoBox ul li{
+list-style-type: none;
+display: inline;
+font-size: 85%;
+}
+
+#mainArticles .entryBody .tagCloudBlocks div.categoryInfoBox ul li a{
+color: #878787;
+font-weight: bold;
+text-decoration: none;
+margin: 0px 3px;
+padding-top: 1px;
+}
+
+#mainArticles .entryBody .tagCloudBlocks div.categoryInfoBox ul li a:hover{
+text-decoration: underline;
+}
+
+/* Article Contents（articleAgenda） */
+#mainArticles .entryBody .articleAgenda{
+margin-top: 20px;
+width: 660px;
+border-top: solid 1px #F1F1F1;
+border-bottom: solid 1px #F1F1F1;
+}
+
+#mainArticles .entryBody .articleAgenda header{
+}
+
+#mainArticles .entryBody .articleAgenda header h3{
+font-weight: bold;
+font-size: 100%;
+padding: 10px 5px 7px;
+}
+
+#mainArticles .entryBody .articleAgenda div.agendaList ul{
+margin-left: 20px;
+padding-bottom: 10px;
+}
+
+#mainArticles .entryBody .articleAgenda div.agendaList ul li{
+color: #ffae00;
+font-size: 93%;
+line-height: 2.0;
+}
+
+#mainArticles .entryBody .articleAgenda div.agendaList ul li a{
+color: #333;
+text-decoration: none;
+}
+
+#mainArticles .entryBody .articleAgenda div.agendaList ul li a:hover{
+text-decoration: underline;
+}
+
+/* Article Contents（mainImageContents） */
+#mainArticles .entryBody .mainImageContents header h3{
+margin: 20px 0px;
+padding: 0px 0px 0px 8px;
+border-left: 5px solid #ffae00;
+}
+
+#mainArticles .entryBody .mainImageContents .sliderArea{
+width: 660px;
+height: 360px;
+padding-bottom: 15px;
+}
+
+#mainArticles .entryBody .mainImageContents .sliderArea .sliderPics{
+width: 660px;
+height: 360px;
+position: relative;
+}
+
+/* Article Contents（remarkContents） */
+#mainArticles .entryBody .remarkContents{
+margin-top: 20px;
+width: 660px;
+border-top: solid 1px #F1F1F1;
+border-bottom: solid 1px #F1F1F1;
+}
+
+#mainArticles .entryBody .remarkContents header h3{
+font-weight: bold;
+font-size: 100%;
+padding: 10px 5px 7px;
+}
+
+#mainArticles .entryBody .remarkContents .remarkMainContents{
+padding: 0 8px 10px;
+font-size: 93%;
+}
+
+/* Article Contents（mainImageContents） */
+#mainArticles .entryBody .mainImageContents .sliderArea{
+width: 660px;
+height: 360px;
+}
+
+#mainArticles .entryBody .mainImageContents .sliderArea .sliderPics{
+width: 660px;
+height: 360px;
+position: relative;
+}
+
+/* 
+	Article Contents（relatedArticleContents）
+	注）新しいコンテンツなのでクラス直書き
+*/
+.relatedArticleContents{
+margin-top: 20px;
+width: 660px;
+height: auto;
+}
+
+.relatedArticleContents header{
+width: 660px;
+height: 28px;
+border-top: solid 1px #ffc580;
+border-bottom: solid 1px #ffc580;
+background: #febd7a;
+}
+
+.relatedArticleContents header h3{
+height: 28px;
+line-height: 28px;
+font-size: 93%;
+margin-left: 6px;
+}
+
+.relatedArticleContents div.pickupBox{
+border: solid 1px #f7f7f7;
+border-top: none;
+}
+
+.relatedArticleContents div.pickupBox dl{
+height: 80px;
+width: 640px;
+margin: 0 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.relatedArticleContents div.pickupBox dl dt{
+height: 18px;
+line-height: 18px;
+font-size: 85%;
+}
+
+.relatedArticleContents div.pickupBox dl dt a{
+color: #ffae00;
+font-weight: bold;
+text-decoration: none;
+background: transparent url("../images/contents/common/arrow_link.gif") no-repeat scroll left 1px;
+padding-left: 12px;
+}
+
+.relatedArticleContents div.pickupBox dl dt a:hover{
+text-decoration: underline;
+}
+
+.relatedArticleContents div.pickupBox dl dd{
+height: 62px;
+}
+
+.relatedArticleContents div.pickupBox dl dd .thumbBox{
+height: 40px;
+overflow: hidden;
+}
+
+.relatedArticleContents div.pickupBox dl dd .thumbBox ul{
+padding-left: 50px;
+}
+
+.relatedArticleContents div.pickupBox dl dd .thumbBox ul li{
+font-size: 85%;
+line-height: 1.8;
+list-style-type: none;
+}
+
+.relatedArticleContents div.pickupBox dl dd p{
+font-size: 85%;
+line-height: 2.0;
+}
+
+/* ============================================================
+02: DetailEyeCatchSlider
+============================================================ */
+/* detail eyecatch slider */
+.detailEyeCatchSlider{
+margin-top: 20px;
+width: 660px;
+height: 360px;
+position: relative;
+}
+
+#eyeCatchSlider{
+width: 660px;
+height: 360px;
+}
+
+#eyeCatchSlider .sliderEyecatch{
+width: 660px;
+height: 360px;
+display: block;
+}
+
+.detailEyeCatchSlider .captionTxt{
+position: absolute;
+bottom: 0;
+width: 660px;
+height: 120px;
+background-image: url(../images/contents/common/bg_png.png);
+background-repeat: repeat;
+z-index: 10;
+overflow: hidden;
+/* opacity settings */
+/*
+background:#333333;
+filter:alpha(opacity=50);
+-moz-opacity:0.5;
+opacity:0.5;
+*/
+}
+
+.detailEyeCatchSlider .captionTxt h3{
+margin-top: 8px;
+margin-left: 8px;
+margin-right: 8px;
+color: #FFFFFF;
+font-size: 93%;
+}
+
+.detailEyeCatchSlider .captionTxt ul{
+margin-top: 5px;
+margin-left: 8px;
+margin-right: 8px;
+}
+
+.detailEyeCatchSlider .captionTxt ul li{
+color: #FFFFFF;
+font-size: 85%;
+list-style-type: none;
+}
+
+.detailEyeCatchSlider .captionTxt ul li.wroteDate{
+float: left;
+}
+
+.detailEyeCatchSlider .captionTxt ul li.wroteGenre{
+float: right;	
+}
+
+.detailEyeCatchSlider .captionTxt ul li span{
+padding: 2px 5px;
+font-weight: bold;
+}
+
+.detailEyeCatchSlider .captionTxt p{
+margin-top: 8px;
+margin-bottom: 5px;
+margin-left: 8px;
+margin-right: 8px;
+color: #FFFFFF;
+font-size: 93%;
+}
+
+/* ============================================================
+03: Paginator ※汎用クラス
+============================================================ */
+
+
+/* ============================================================
+04: ErrorCommon ※汎用クラス
+============================================================ */
+/* Error Message Contents（remarkContents） */
+#mainArticles .entryBody .errorContents{
+margin-top: 20px;
+width: 660px;
+border-top: solid 1px #F1F1F1;
+border-bottom: solid 1px #F1F1F1;
+}
+
+#mainArticles .entryBody .errorContents header h3{
+font-weight: bold;
+font-size: 100%;
+padding: 10px 5px 7px;
+}
+
+#mainArticles .entryBody .errorContents .errorMainContents{
+padding: 0 8px 10px;
+font-size: 93%;
+}
+
+#mainArticles .entryBody .errorContents .errorMainContents ul{
+margin-left: 20px;
+padding: 5px 0;
+}
+
+#mainArticles .entryBody .errorContents .errorMainContents ul li{
+font-size: 93%;
+line-height: 2.0;
+}

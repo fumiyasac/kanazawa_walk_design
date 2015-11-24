@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*
-    category_contents.css
+  category_contents.css
 	
 	Fumiya Sakai(just1factory)
 	
@@ -70,36 +70,36 @@ color: #ffae00;
 ============================================================ */
 /* slider */
 .sliderContents{
-width:660px;
-height:360px;
+width: 660px;
+height: 360px;
 }
 
 #slider{
-width:660px;
-height:360px;
+width: 660px;
+height: 360px;
 }
 
 #slider .sliderPics{
-width:660px;
-height:360px;
-position:relative;
+width: 660px;
+height: 360px;
+position: relative;
 }
 
 #slider .sliderPics a{
-width:660px;
-height:360px;
-position:absolute;
-left:0;
-top:0;
-display:block;
+width: 660px;
+height: 360px;
+position: absolute;
+left: 0;
+top: 0;
+display: block;
 }
 
 #slider .sliderPics .caption{
-position:absolute;
-bottom:0;
-width:660px;
-background-image:url(../images/contents/common/bg_png.png);
-background-repeat:repeat;
+position: absolute;
+bottom: 0;
+width: 660px;
+background-image: url(../images/contents/common/bg_png.png);
+background-repeat: repeat;
 /* opacity settings */
 /*
 background:#333333;
@@ -110,19 +110,19 @@ opacity:0.5;
 }
 
 #slider .sliderPics .caption h3{
-margin-top:5px;
-margin-left:8px;
-margin-right:8px;
-color:#FFFFFF;
-font-size:93%;
+margin-top: 5px;
+margin-left: 8px;
+margin-right: 8px;
+color: #FFFFFF;
+font-size: 93%;
 }
 
 #slider .sliderPics .caption p{
-margin-bottom:5px;
-margin-left:8px;
-margin-right:8px;
-color:#FFFFFF;
-font-size:93%;
+margin-bottom: 5px;
+margin-left: 8px;
+margin-right: 8px;
+color: #FFFFFF;
+font-size: 93%;
 }
 
 .vTitle{

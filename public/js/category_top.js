@@ -7,8 +7,8 @@
 
 $(document).ready(function(){
 
-    var MAIN_NAV = "#leftContents nav ul li a";
-    var BANNERS = ".reports a";
+  var MAIN_NAV = "#leftContents nav ul li a";
+  var BANNERS = ".reports a";
 		
 	//Rollover Action.
 	$(MAIN_NAV).opOver(1.0,0.3,400,400);
@@ -17,20 +17,28 @@ $(document).ready(function(){
 	//Form Auto Clear
 	$(".autoClear").css("color","#999999").autoclear();	
 
-	//jQuery Cycle Plugin(photo gallery)
-  	$('#slider').cycle({
-  		fx : 'fade',
-  		speed : 600,
-  		timeout : 6000,
-  		easing : 'swing',
+	//jQuery Cycle Plugin(photo gallery pattern1)
+  $('#slider').cycle({
+  	fx : 'fade',
+  	speed : 600,
+  	timeout : 6000,
+  	easing : 'swing',
 		cleartype: true
-  	});
+  });
+
+	//jQuery Cycle Plugin(photo gallery pattern2)
+  $('#eyeCatchSlider').cycle({
+  	fx : 'scrollLeft',
+  	speed : 600,
+  	timeout : 6000,
+  	easing : 'swing',
+		cleartype: true
+  });
 
 	//jQuery Accessible News Slider(photo gallery)	
 	$(".computers_technology").accessNews({
-        newsHeadline: 'その他のカテゴリー記事',
-        newsSpeed: 'normal'
-    });
-
+    newsHeadline: 'その他のカテゴリー記事',
+    newsSpeed: 'normal'
+  });
 	
 });

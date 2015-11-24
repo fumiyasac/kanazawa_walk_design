@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+  markdown_pattern.css
+	
+	Fumiya Sakai(just1factory)
+	
+	01: MarkdownPatterns1
+	02: MarkdownPatterns2
+	
+*/
+
+/* ============================================================
+01: MarkdownPatterns1 ※メイン記事詳細ページ本文
+============================================================ */
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents{
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents p{
+}
+
+/* ============================================================
+02: MarkdownPatterns2 ※メイン記事詳細ページサマリー
+============================================================ */
+#mainArticles .entryBody .remarkContents .remarkMainContents .remarkMarkdownContents{
+}
+
+#mainArticles .entryBody .remarkContents .remarkMainContents .remarkMarkdownContents p{
+}
