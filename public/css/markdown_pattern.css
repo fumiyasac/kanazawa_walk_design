@@ -8,7 +8,8 @@
 	
 	01: MarkdownPatterns1
 	02: MarkdownPatterns2
-	
+	03: MarkdownPatterns3
+		
 */
 
 /* ============================================================
@@ -27,4 +28,15 @@
 }
 
 #mainArticles .entryBody .remarkContents .remarkMainContents .remarkMarkdownContents p{
+}
+
+/* ============================================================
+03: MarkdownPatterns3 ※Pickup店舗詳細ページサマリー
+============================================================ */
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents{
+
+}
+
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents p{
+
 }

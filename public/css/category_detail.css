@@ -405,6 +405,31 @@ color: #FFFFFF;
 font-size: 93%;
 }
 
+/* pickup detail shop */
+.pickupDetailShopContents{
+margin-top: 20px;
+width: 660px;
+}
+
+.pickupDetailShopContents header{
+border-top: dotted 1px #f2f2f2;
+border-bottom: dotted 1px #f2f2f2;
+background: #f7f7f7;
+height: 28px;
+line-height: 28px;
+margin-bottom: 7px;
+}
+
+.pickupDetailShopContents header h3{
+margin-left: 6px;
+font-size: 93%;
+}
+
+.pickupDetailShopContents .pickupDetailShopArea{
+font-size: 93%;
+margin: 6px;
+}
+
 /* ============================================================
 03: Paginator ※汎用クラス
 ============================================================ */

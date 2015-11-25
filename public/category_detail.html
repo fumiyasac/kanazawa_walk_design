@@ -213,10 +213,12 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
       
       <!-- //rightContents #start -->
       <div id="rightContents">
-        <article id="mainArticles">      
+        <article id="mainArticles"> 
 	        
+	        <!-- //entryBody #start -->
 	        <div class="entryBody">
-
+		        
+						<!-- //breadCrumb #start -->
 		        <aside class="breadCrumb">
 			        <ul>
 				        <li><a href="#">Home</a></li>
@@ -224,7 +226,9 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 				        <li class="last">タイトルが入りますタイトルが入りますタイトルが入ります</li>
 			        </ul>
 		        </aside>
-
+						<!-- //breadCrumb #end -->
+						
+						<!-- //titleBlocks #start -->
 		        <header class="titleBlocks">
 			        <h2>タイトルが入りますタイトルが入りますタイトルが入ります</h2>
 			        <div>
@@ -242,7 +246,9 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 								</dl>
 							</div>
 		        </header>
-
+						<!-- //titleBlocks #end -->
+						
+						<!-- //tagCloudBlocks #start -->
 						<aside class="tagCloudBlocks">	          
 							<div class="categoryInfoBox">
 								<ul>
@@ -252,7 +258,9 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 								</ul>
 							</div>
 						</aside>
+						<!-- //tagCloudBlocks #end -->
 
+						<!-- //detailEyeCatchSlider #start -->
 						<div class="detailEyeCatchSlider">
             	<div id="eyeCatchSlider">
               	<!--loop start here.-->
@@ -273,7 +281,9 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 								<p>テキストサンプル2が入ります。テキストサンプル2が入ります。テキストサンプル2が入ります。テキストサンプル2が入ります。テキストサンプル2が入ります。テキストサンプル2が入ります。テキストサンプル2が入ります。テキストサンプル2が入ります。テキストサンプル2が入ります。</p>
               </div>
           	</div>
-
+						<!-- //detailEyeCatchSlider #end -->
+						
+						<!-- //articleAgenda #start -->
 	          <aside class="articleAgenda">
 		          <header>
 			          <h3>目次</h3>
@@ -288,7 +298,9 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 			          </ul>
 		          </div>
 	          </aside>
-	          
+						<!-- //articleAgenda #end -->
+						
+						<!-- //mainImageContents #start -->
 	          <section class="mainImageContents">	   
 		          <header>
 			          <h3>サブタイトルが入ります。サブタイトルが入ります。サブタイトルが入ります。</h3>
@@ -302,7 +314,9 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 								<p>あいうえおあいうえおあいうえおあいうえおあいうえお</p>		          
 	          	</div>
 	          </section>
+	          <!-- //mainImageContents #end -->
 	          
+	          <!-- //remarkContents #start -->
 	          <section class="remarkContents">   
 		          <header>
 			          <h3>注意事項や補足情報：</h3>
@@ -313,7 +327,9 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 		            </div>
 	            </div>
 	          </section>
-	          
+	          <!-- //remarkContents #end -->
+
+	          <!-- //errorContents #start -->
 	          <section class="errorContents">   
 		          <header>
 			          <h3>お探しのページは見つかりませんでした。</h3>
@@ -330,29 +346,42 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
 			          <p>エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。</p>
 	            </div>
 	          </section>
-
+	          <!-- //errorContents #end -->
+	          
+	          <!-- //pickupDetailShopContents #start -->
+	          <section class="pickupDetailShopContents">   
+		          <header>
+			          <h3>今回Pickupした店舗情報一覧</h3>
+		          </header>
+		          <div class="pickupDetailShopArea">
+	            	<div class="pickupDetailShopMarkdownContents">
+			          	<p>エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。エラーメッセージが入ります。</p>
+	            	</div>
+	            </div>
+	          </section>
+	          <!-- //pickupDetailShopContents #end -->
+	          
+	          <!-- 
+						 あとでつくる
+						 1. pagenateのスタイル (kaminari適用時のhtmlに合わせる)
+						 2. Markdownのスタイル (redcarpet適用時のhtmlに合わせる)						
+					  -->
+					  <!--
+					  <aside class="pagenationArea">
+						  <div class="pagenationImpl">
+            	  <ul class="pagination">
+	            	  <li class="first"><a href="#">&lt;&lt;&nbsp;最後へ</a></li>
+	            	  <li class="prev"><a href="#">前へ&nbsp;&gt;&gt;</a></li>
+                  <li class="page active"><a href="#" class="current">1</a></li>
+                  <li class="page"><a href="#">2</a></li>
+                  <li class="page"><a href="#">3</a></li>
+                  <li class="next"><a href="#">次へ&nbsp;&gt;&gt;</a></li>
+                  <li class="last"><a href="#">最後へ&nbsp;&gt;&gt;</a></li>
+                </ul>
+    				  </div>
+					  </aside>
+					  -->
           </div>
-
-					<!-- 
-						あとでつくる
-						1. pagenateのスタイル (kaminari適用時のhtmlに合わせる)
-						2. Markdownのスタイル (redcarpet適用時のhtmlに合わせる)						
-					-->
-					<!--
-					<aside class="pagenationArea">
-						<div class="pagenationImpl">
-            	<ul class="pagination">
-	            	<li class="first"><a href="#">&lt;&lt;&nbsp;最後へ</a></li>
-	            	<li class="prev"><a href="#">前へ&nbsp;&gt;&gt;</a></li>
-                <li class="page active"><a href="#" class="current">1</a></li>
-                <li class="page"><a href="#">2</a></li>
-                <li class="page"><a href="#">3</a></li>
-                <li class="next"><a href="#">次へ&nbsp;&gt;&gt;</a></li>
-                <li class="last"><a href="#">最後へ&nbsp;&gt;&gt;</a></li>
-              </ul>
-    				</div>
-					</aside>
-					-->
 
           <div class="relatedArticleContents">
             <header>
