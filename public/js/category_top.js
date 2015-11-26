@@ -35,6 +35,13 @@ $(document).ready(function(){
 		cleartype: true
   });
 
+	//Pager Rollover	
+	$('.pagination a').hover(function(){
+		$(this).animate({color:'#ffffff', backgroundColor:'#d1d1d1'}, 200);
+	},function(){
+		$(this).animate({color:'#333333',backgroundColor:'#f7f7f7'}, 200);
+	});
+	
 	//jQuery Accessible News Slider(photo gallery)	
 	$(".computers_technology").accessNews({
     newsHeadline: 'その他のカテゴリー記事',

@@ -433,7 +433,40 @@ margin: 6px;
 /* ============================================================
 03: Paginator ※汎用クラス
 ============================================================ */
+.pagenationArea{
+margin-top: 20px;
+width: 660px;
+}
 
+.pagenationArea .pagination{
+width: 660px;
+height: 24px;
+line-height: 24px;
+text-align: center;
+}
+
+.pagenationArea .pagination span{
+padding: 4px 7px;
+margin: 0 4px;
+background: #d1d1d1;
+border: solid 1px #d1d1d1;
+color: #ffffff;
+font-size: 85%;
+position: relative;
+font-weight: bold;
+}
+
+.pagenationArea .pagination a{
+padding: 4px 7px;
+margin: 0 4px;
+background: #f7f7f7;
+border: solid 1px #d1d1d1;
+color: #333333;
+font-size: 85%;
+text-decoration: none;
+position: relative;
+font-weight: bold;
+}
 
 /* ============================================================
 04: ErrorCommon ※汎用クラス
