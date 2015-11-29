@@ -102,6 +102,10 @@ font-size: 93%;
 padding: 0 0 3px;
 }
 
+#mainArticles .entryBody .titleBlocks div dl dt span.amoutScore{
+padding-right: 3px;
+}
+
 #mainArticles .entryBody .titleBlocks div dl dt.articleGenreImageText{
 margin-top: 10px;
 }
@@ -118,6 +122,49 @@ margin-top: 5px;
 #mainArticles .entryBody .titleBlocks div dl dd.articleDesc{
 margin-top: 5px;
 margin-bottom: 10px;
+}
+
+/* Article Contents（socialButtonBlocks） */
+#mainArticles .entryBody .socialButtonBlocks{
+margin-top: 20px;
+width: 660px;
+}
+
+#mainArticles .entryBody .socialButtonBlocks div.socialButtonInfoBox{
+width: 660px;
+height: 36px;
+}
+
+#mainArticles .entryBody .socialButtonBlocks div.socialButtonInfoBox ul{
+width: 660px;
+height: 36px;
+}
+
+#mainArticles .entryBody .socialButtonBlocks div.socialButtonInfoBox ul li{
+list-style-type: none;
+display: inline;
+font-size: 85%;
+float: left;
+}
+
+#mainArticles .entryBody .socialButtonBlocks div.socialButtonInfoBox ul li a{
+text-indent: -9999px;
+margin-right: 14px;
+width: 36px;
+height: 36px;
+display: block;
+}
+
+#mainArticles .entryBody .socialButtonBlocks div.socialButtonInfoBox ul li.twitter-button a{
+background: transparent url("../images/contents/common/social_twitter_button.png") no-repeat scroll left top;
+}
+
+#mainArticles .entryBody .socialButtonBlocks div.socialButtonInfoBox ul li.facebook-button a{
+background: transparent url("../images/contents/common/social_facebook_button.png") no-repeat scroll left top;
+}
+
+#mainArticles .entryBody .socialButtonBlocks div.socialButtonInfoBox ul li.googleplus-button a{
+background: transparent url("../images/contents/common/social_googleplus_button.png") no-repeat scroll left top;
 }
 
 /* Article Contents（tagCloudBlocks） */
