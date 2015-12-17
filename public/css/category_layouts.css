@@ -63,13 +63,13 @@ background:#ffffff;
 
 /* for IE8 (default:16px) */
 html>/**/body {
-	font-size /*\**/: 82%\9;
+font-size /*\**/: 82%\9;
 }
 
 /* Layout Template */
 #wrapper{
-    width: auto;
-    height: auto;
+width: auto;
+height: auto;
 }
 
 /* 1. Layout Template -> #topArea */
