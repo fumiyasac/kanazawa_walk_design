@@ -31,8 +31,10 @@
 <script src="js/libs/jquery.color.js"></script>
 <script src="js/libs/jquery.accessible-news-slider.js"></script>
 <script src="js/libs/vtip.js"></script>
+<script src="js/libs/jquery.cookie.js"></script>
 <script src="js/pagescroller.js"></script>
 <script src="js/category_top.js"></script>
+<script src="js/tabview.js"></script>
 <!--[if IE 6]>
 <script type="text/javascript" src="js/libs/DD_belatedPNG.js"></script>
 <script type="text/javascript">
@@ -365,6 +367,95 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
             </section>
             <!-- //errorContents #end -->
             
+            <!-- //tabInfoContents #start -->
+            <section class="tabInfoContents">
+              <div class="tabButton">
+                <p id="firstTab"><a href="#firstTabView">1番目の情報</a></p>
+                <p id="secondTab"><a href="#secondTabView">2番目の情報</a></p>
+                <p id="thirdTab"><a href="#thirdTabView">3番目の情報</a></p>
+                <p id="fourthTab"><a href="#fourthTabView">4番目の情報</a></p>
+              </div>
+              <div class="tabView">
+                <section id="firstTabView">
+                  <header>
+                    <h4>1番目の大見出しが入ります。1番目の大見出しが入ります。</h4>
+                  </header>
+                  <div class="tabDisplayArea">
+                    <ul>
+                      <li>
+                        <span>1番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">1番目のコンテンツテキストが入ります。1番目のコンテンツテキストが入ります。1番目のコンテンツテキストが入ります。1番目のコンテンツテキストが入ります。1番目のコンテンツテキストが入ります。1番目のコンテンツテキストが入ります。1番目のコンテンツテキストが入ります。1番目のコンテンツテキストが入ります。</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                <section id="secondTabView">
+                  <header>
+                    <h4>2番目の大見出しが入ります。2番目の大見出しが入ります。</h4>
+                  </header>
+                  <div class="tabDisplayArea">
+                    <ul>
+                      <li>
+                        <span>2番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。</a>
+                      </li>
+                      <li>
+                        <span>2番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。2番目のコンテンツテキストが入ります。</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                <section id="thirdTabView">
+                  <header>
+                    <h4>3番目の大見出しが入ります。3番目の大見出しが入ります。</h4>
+                  </header>
+                  <div class="tabDisplayArea">
+                    <ul>
+                      <li>
+                        <span>3番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。</a>
+                      </li>
+                      <li>
+                        <span>3番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。</a>
+                      </li>
+                      <li>
+                        <span>3番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。3番目のコンテンツテキストが入ります。</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                <section id="fourthTabView">
+                  <header>
+                    <h4>4番目の大見出しが入ります。4番目の大見出しが入ります。</h4>
+                  </header>
+                  <div class="tabDisplayArea">
+                    <ul>
+                      <li>
+                        <span>4番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。</a>
+                      </li>
+                      <li>
+                        <span>4番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。</a>
+                      </li>
+                      <li>
+                        <span>4番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。</a>
+                      </li>
+                      <li>
+                        <span>4番目のコンテンツタイトルが入ります。</span>
+                        <a href="#">4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。4番目のコンテンツテキストが入ります。</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </section>
+            <!-- //tabInfoContents #end -->
+
             <!-- //pickupDetailShopContents #start -->
             <section class="pickupDetailShopContents">   
               <header>
