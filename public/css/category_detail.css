@@ -592,7 +592,7 @@ left: 495px;
 }
 
 #mainArticles .entryBody .tabInfoContents .tabButton p a{
-width: 158px;
+width: 164px;
 height: 30px;
 line-height: 30px;
 text-decoration: none;
@@ -601,6 +601,7 @@ font-weight: bold;
 font-size: 85%;
 display: block;
 text-align: center;
+overflow: hidden;
 }
 
 #mainArticles .entryBody .tabInfoContents .tabButton p a.active{
