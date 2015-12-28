@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*
-    top_contents.css
+  top_contents.css
 	
 	Fumiya Sakai(Just One Factory). 
 
@@ -361,7 +361,7 @@ display: inline-block;
 
 #copyright .subNav nav ul li a{
 padding-left: 10px;
-background: url(../images/top/common/arrow_footer_top.gif) no-repeat scroll left 4px transparent;
+background: url(../images/top/common/arrow_footer_top.gif) no-repeat scroll left 3px transparent;
 font-size: 85%;
 color: #ffffff;
 text-decoration: none;
