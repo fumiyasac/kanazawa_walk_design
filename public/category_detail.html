@@ -31,9 +31,11 @@
 <script src="js/libs/jquery.color.js"></script>
 <script src="js/libs/jquery.accessible-news-slider.js"></script>
 <script src="js/libs/vtip.js"></script>
+<script src="js/libs/lazyload.js"></script>
 <script src="js/libs/jquery.cookie.js"></script>
 <script src="js/pagescroller.js"></script>
 <script src="js/category_top.js"></script>
+<script src="js/category_detail.js"></script>
 <script src="js/tabview.js"></script>
 <!--[if IE 6]>
 <script type="text/javascript" src="js/libs/DD_belatedPNG.js"></script>
@@ -219,7 +221,7 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
       
       <!-- //rightContents #start -->
       <div id="rightContents">
-        <article id="mainArticles"> 
+        <article id="mainArticles">
           
           <!-- //entryBody #start -->
           <div class="entryBody">
@@ -247,12 +249,27 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
                   <dt class="articleGenreImageText">カテゴリ：<span class="categoryGourmentTxt bold">グルメ・お食事</span></dt>
                   <dt class="articleGenreImageDate">作成：2015.09.12</dt>
                   <dt class="articleGenreImagePoint">評価・PV数：<span class="red bold amoutScore">4</span>point・<span class="red bold amoutScore">177</span>views</dt>
-                  <dd class="articleKcpy siteSymTxt">キャッチコピーキャッチコピーキャッチコピー</dd>
+                  <dd class="articleKcpy"><span class="bold siteSymTxt">キャッチコピーキャッチコピーキャッチコピー</span></dd>
                   <dd class="articleDesc">記事の概要：<br>メタ概要が入ります。メタ概要が入ります。メタ概要が入ります。メタ概要が入ります。メタ概要が入ります。メタ概要が入ります。メタ概要が入ります。メタ概要が入ります。</dd>
                 </dl>
               </div>
             </header>
             <!-- //titleBlocks #end -->
+
+            <!-- //searchBlocks #start -->
+            <!-- #本番に組み込む際はこっちを使う
+	          <header class="searchBlocks">
+	          -->
+            <header class="searchBlocks magt20">
+              <h2>◯◯◯◯での検索結果</h2>
+              <div>
+                <dl>
+                  <dt class="searchResultText">該当の記事は全部で <span class="bold red yuiOriginalFontSize">40</span> 件ありました。</dt>
+                  <dd class="searchDescText">カテゴリー名での検索結果について：<br>気の利いたテキストが入ります。気の利いたテキストが入ります。気の利いたテキストが入ります。気の利いたテキストが入ります。気の利いたテキストが入ります。気の利いたテキストが入ります。</dd>
+                </dl>
+              </div>
+            </header>
+            <!-- //searchBlocks #end -->
 
             <!-- //socialButtonBlocks #start -->
             <aside class="socialButtonBlocks">            
@@ -326,7 +343,7 @@ DD_belatedPNG.fix('#slider .sliderPics .caption,.png');
               </header>       
               <div class="sliderArea">
                 <div class="sliderPics">
-                  <img src="images/contents/sample/slider_sample1.jpg" width="660" height="360" alt="" title="#caption1">
+                  <img src="images/contents/sample/slider_sample1.jpg" width="660" height="360" alt="" title="#caption1" class="articleThumb">
                 </div>
               </div>
               <div class="detailMarkdownContents">

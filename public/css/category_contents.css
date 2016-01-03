@@ -69,6 +69,10 @@ color: #ffae00;
 padding-right: 3px;
 }
 
+.yuiOriginalFontSize{
+font-size: 100% !important;
+}
+
 /* ============================================================
 01: sliderContents
 ============================================================ */
