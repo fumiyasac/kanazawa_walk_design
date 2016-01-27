@@ -16,15 +16,52 @@
 01: MarkdownPatterns1 ※メイン記事詳細ページ本文
 ============================================================ */
 #mainArticles .entryBody .mainImageContents .detailMarkdownContents{
+line-height: 1.8;
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents h4,
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents h5,
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents h6{
+margin: 5px 0 10px;
+padding: 5px 0;
+border-top: dotted 1px #ffae00;
+border-bottom: dotted 1px #ffae00;
 }
 
 #mainArticles .entryBody .mainImageContents .detailMarkdownContents p{
+line-height: 1.8;
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents p a{
+color: #333333;
+text-decoration: underline;
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents p strong{
+color: #ffae00;
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents ul{
+margin: 10px 5px 10px 15px;
+color: #333333;
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents ul li{
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents ol{
+margin: 10px 5px 10px 17px;
+color: #333333;
+}
+
+#mainArticles .entryBody .mainImageContents .detailMarkdownContents ol li{
 }
 
 /* ============================================================
 02: MarkdownPatterns2 ※メイン記事詳細ページサマリー
 ============================================================ */
 #mainArticles .entryBody .remarkContents .remarkMainContents .remarkMarkdownContents{
+color: #333333;
 }
 
 #mainArticles .entryBody .remarkContents .remarkMainContents .remarkMarkdownContents p{
@@ -34,9 +71,43 @@
 03: MarkdownPatterns3 ※Pickup店舗詳細ページサマリー
 ============================================================ */
 #mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents{
+line-height: 1.8;
+}
 
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents h4,
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents h5,
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents h6{
+margin: 5px 0 10px;
+padding: 5px 0;
+border-top: dotted 1px #ffae00;
+border-bottom: dotted 1px #ffae00;
 }
 
 #mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents p{
+line-height: 1.8;
+}
 
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents p a{
+color: #333333;
+text-decoration: underline;
+}
+
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents p strong{
+color: #ffae00;
+}
+
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents ul{
+margin: 10px 5px 10px 15px;
+color: #333333;
+}
+
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents ul li{
+}
+
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents ol{
+margin: 10px 5px 10px 17px;
+color: #333333;
+}
+
+#mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents ol li{
 }
