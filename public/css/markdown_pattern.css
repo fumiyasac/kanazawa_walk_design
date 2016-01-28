@@ -24,8 +24,8 @@ line-height: 1.8;
 #mainArticles .entryBody .mainImageContents .detailMarkdownContents h6{
 margin: 5px 0 10px;
 padding: 5px 0;
-border-top: dotted 1px #ffae00;
-border-bottom: dotted 1px #ffae00;
+border-top: dotted 1px #f1f1f1;
+border-bottom: dotted 1px #f1f1f1;
 }
 
 #mainArticles .entryBody .mainImageContents .detailMarkdownContents p{
@@ -79,8 +79,8 @@ line-height: 1.8;
 #mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents h6{
 margin: 5px 0 10px;
 padding: 5px 0;
-border-top: dotted 1px #ffae00;
-border-bottom: dotted 1px #ffae00;
+border-top: dotted 1px #f1f1f1;
+border-bottom: dotted 1px #f1f1f1;
 }
 
 #mainArticles .entryBody .pickupDetailShopContents .pickupDetailShopArea .pickupDetailShopMarkdownContents p{
